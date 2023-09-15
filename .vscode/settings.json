@@ -1,0 +1,21 @@
+{
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      // "source.unusedImports": true,
+      "source.fixAll": true
+    },
+    // "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none",
+  // "isort.args": ["--profile", "black"],
+  "pythonIndent.trimLinesWithOnlyWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 5000,
+  "editor.insertSpaces": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.trimTrailingWhitespace": true
+}
