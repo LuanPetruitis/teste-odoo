@@ -7,7 +7,7 @@
         {
             "name": "Python: Current File",
             "type": "python",
-            "python": "/home/lpetrutis/Documentos/odoo-test/.venv/bin/python3",
+            "python": "/home/lpetrutis/Documentos/teste-odoo/.venv/bin/python3",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
@@ -31,8 +31,8 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "/home/lpetrutis/Documentos/odoo-test/Questao_3/.venv/bin/python3",
-            "program": "/home/lpetrutis/Documentos/odoo-test/Questao_3/odoo/odoo-bin",
+            "python": "/home/lpetrutis/Documentos/teste-odoo/Questao_3/.venv/bin/python3",
+            "program": "/home/lpetrutis/Documentos/teste-odoo/Questao_3/odoo/odoo-bin",
             "args": [
                 // "--update=godoo_sale_control_panel"
             ],
@@ -45,10 +45,10 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "/home/lpetrutis/Documentos/odoo-test/Questao_3/.venv/bin/python3",
-            "program": "/home/lpetrutis/Documentos/odoo-test/Questao_3/odoo/odoo-bin",
+            "python": "/home/lpetrutis/Documentos/teste-odoo/Questao_3/.venv/bin/python3",
+            "program": "/home/lpetrutis/Documentos/teste-odoo/Questao_3/odoo/odoo-bin",
             "args": [
-                "-c /home/lpetrutis/Documentos/odoo-test/Questao_3/odoo/odoo.conf"
+                "-c /home/lpetrutis/Documentos/teste-odoo/Questao_3/odoo/odoo.conf"
             ],
             "cwd": "${workspaceRoot}",
             "console": "externalTerminal"
