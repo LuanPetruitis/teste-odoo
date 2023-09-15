@@ -36,6 +36,8 @@ python3 main.py
 
 2) Já a questão 2 como teria que fazer uma API e não foi estipulado qual era o framework eu optei por utilizar o FastAPI com o MongoDB, pois como é o que eu trabalho atualmente, consegui fazer mais rápido.
 
+Um ponto que achei relevante implementar é a verificação se possui estoque e a atualização do estoque caso o pedido seja finalizado.
+
 Algumas ideias para dar sequência, poderia ser por exemplo implementar um endpoint de cancelamento do pedido.
 
 ![Imagem da Docs da API](./imagens/questao_dois.png)
