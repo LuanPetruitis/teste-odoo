@@ -45,7 +45,7 @@ Algumas ideias para dar sequência, poderia ser por exemplo implementar um endpo
 
 > Configurações de variáveis de ambiente
 
-Variáveis de ambiente devem ser adicionadas ao projeto dentro da pasta **/questao_dois2**. Crie o arquivo `.env` baseado no exemplo presente em `.env.sample`
+Variáveis de ambiente devem ser adicionadas ao projeto dentro da pasta **/questao_dois**. Crie o arquivo `.env` baseado no exemplo presente em `.env.sample`
 
 ## 🚆 Rodando o projeto
 
@@ -63,13 +63,13 @@ Após rodar esse comando o terminal fica aguardando que você rode o debbuge do 
 
 
 ## Caso queira ver a API funcionando online é só acessar o link
-<a href="https://e-commerce-jw0g.onrender.com/docs">🔗 API E-commerce</a>
+<a href="https://e-commerce-jw0g.onrender.com/docs" target="_blank">🔗 API E-commerce</a>
 
-### As questões 3 4 quatro foram feitas tudo dentro da pasta `questao_tres_quatro`
+### As questões 3 e 4 quatro foram feitas tudo dentro da pasta `questao_tres_quatro`
 
-Como não foi estipulado a versão do Odoo optei por utilizar a versão 14 por estar estável por mais tempo e ter mais formas de consulta.
+Como não foi estipulado a versão do Odoo optei por utilizar a versão 14.0 por estar estável por mais tempo e ter mais formas de consulta.
 
-3) Não foi preciso adicionar o campo no modelo `account.move` para incluir um campo `currency_id` pois ele já existia lá.
+3) Não foi preciso adicionar o campo `currency_id` no modelo `account.move`, pois ele já existia lá.
 
 Seria possível fazer um `_rec_name` mais personalizado exemplo "EUR para USD" porém exigiria mais tempo.
 
@@ -88,5 +88,7 @@ uvicorn main:app
 ```
 
 Para acessar a documentação da API é só acesar `http://localhost:8000/docs`
+
+Após confirmar a Fatura ele envia para a API externa e salva o retorno nesta tabela.
 
 ![Tela de Integração de Faturas](./imagens/integracao_faturas.png)
