@@ -1,0 +1,2 @@
+fastapi[all]==0.103.0
+pymongo==4.4.1
