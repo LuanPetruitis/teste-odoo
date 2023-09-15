@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="account_invoice_integration_tree_view" model="ir.ui.view">
+    <field name="model">account.invoice.integration</field>
+    <field name="arch" type= "xml">
+        <tree>
+            <field name="invoice_id" />
+            <field name="external_system_id" />
+            <field name="response_message" />
+            <field name="status" />
+        </tree>
+    </field>
+    </record>
+
+    <record id= "account_invoice_integration_form_view" model="ir.ui.view">
+    <field name="model">account.invoice.integration</field>
+    <field name="arch" type= "xml">
+        <form>
+            <sheet>
+                <header>
+                    <field name="status" widget="statusbar" />
+                </header>
+                <group>
+                    <group>
+                        <field name="invoice_id" />
+                        <field name="external_system_id" />
+                        <field name="response_message" />
+                    </group>
+                </group>
+            </sheet>
+        </form>
+    </field>
+    </record>
+
+    <record id="action_account_invoice_integration" model="ir.actions.act_window">
+        <field name="name">Integração de Faturas</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">account.invoice.integration</field>
+        <field name="view_id" ref="account_invoice_integration_tree_view" />
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="menu_account_invoice_integration"
+        name="Integração de Faturas"
+        sequence="50"
+        action="action_account_invoice_integration"
+        parent="account.menu_finance"
+    />
+
+</odoo>
