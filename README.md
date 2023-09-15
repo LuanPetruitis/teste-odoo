@@ -65,6 +65,8 @@ Após rodar esse comando o terminal fica aguardando que você rode o debbuge do 
 
 ### As questões 3 4 quatro foram feitas tudo dentro da pasta `questao_tres_quatro`
 
+Como não foi estipulado a versão do Odoo optei por utilizar a versão 14 por estar estável por mais tempo e ter mais formas de consulta.
+
 3) Não foi preciso adicionar o campo no modelo `account.move` para incluir um campo `currency_id` pois ele já existia lá.
 
 Seria possível fazer um `_rec_name` mais personalizado exemplo "EUR para USD" porém exigiria mais tempo.
