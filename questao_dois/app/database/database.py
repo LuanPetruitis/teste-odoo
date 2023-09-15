@@ -7,5 +7,3 @@ class DBConnection:
         self.client = MongoClient(settings.MONGO_URL)
         self.database = self.client[settings.DATABASE_ENVIRONMENT]
 
-
-database = DBConnection().database

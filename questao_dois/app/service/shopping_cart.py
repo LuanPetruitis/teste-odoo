@@ -1,9 +1,9 @@
-from app.database.database import database
+from app.database.database import DBConnection
 
 
 class ShoppingCart:
     def __init__(self):
-        self.database = database
+        self.database = DBConnection().database
 
     def add_product(self, user_id, data):
         try:

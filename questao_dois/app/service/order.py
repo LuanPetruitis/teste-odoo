@@ -1,11 +1,11 @@
-from app.database.database import database
+from app.database.database import DBConnection
 from app.models.order import OrderModel
 from app.service.product import Product
 
 
 class Order:
     def __init__(self):
-        self.database = database
+        self.database = DBConnection().database
         self.product_service = Product()
 
     def create(self, user_id):

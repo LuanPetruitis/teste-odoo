@@ -1,9 +1,9 @@
-from app.database.database import database
+from app.database.database import DBConnection
 
 
 class Product:
     def __init__(self):
-        self.database = database
+        self.database = DBConnection().database
 
     def create(self, product_data):
         product_exist = self.database["products"].find_one(
