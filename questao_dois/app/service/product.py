@@ -25,7 +25,7 @@ class Product:
     def edit(self, product_id: str, product_data):
         try:
             product_exist = self.database["products"].find_one(
-                {"name": product_data.get("name")}
+                {"name": product_data.get("name"), "id": {"$ne": product_id}}
             )
             if product_exist:
                 return False
