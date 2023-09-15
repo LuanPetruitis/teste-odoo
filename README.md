@@ -63,7 +63,7 @@ Após rodar esse comando o terminal fica aguardando que você rode o debbuge do 
 
 
 ## Caso queira ver a API funcionando online é só acessar o link
-<a href="https://e-commerce-jw0g.onrender.com/docs" target="_blank">🔗 API E-commerce</a>
+[🔗 API E-commerce]([url](https://e-commerce-jw0g.onrender.com/docs)){:target="_blank"}
 
 ### As questões 3 e 4 quatro foram feitas tudo dentro da pasta `questao_tres_quatro`
 
